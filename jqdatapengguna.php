@@ -36,7 +36,7 @@
 		while ($row = mysqli_fetch_row($res)) {
 			echo "
 				 <tr>
-					<td width='20px'><input type='radio' name='rdoNIP' value=".$row[0]." /></td>
+					<td width='20px'><input type='radio' name='rdoDP' value=".$row[0]." /></td>
                     <td>".$row[1]."</td>
 					<td>".$row[2]."</td>
 					<td>".$row[3]."</td>

@@ -1,13 +1,16 @@
 <?php
 	session_start();
 	
-	include "library/dbconnect.php";
+	include "lib/dbconnectsipbang.php";
 	
 	$nip = $_GET["a"];
 	$nama = $_GET["b"];
 	$jabatan = $_GET["c"];
 
-	$sql = "INSERT INTO tablemovie VALUES ('".$nip."','".$nama."','".$jabatan."')";
+	$todaytime = date("Y-m-d H:i:s");
+	$userid = strtoupper(md5($nama.$todaytime));
+
+	$sql = "INSERT INTO pengguna VALUES ('".$userid."','".$nip."','".$nama."','".$jabatan."')";
 	$res = runsqltext($sql);
 	if ($res) {
 		echo "1";

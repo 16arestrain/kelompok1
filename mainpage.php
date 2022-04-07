@@ -80,35 +80,35 @@
 					</tr>
 					<tr>
 						<td>&nbsp;</td>
-						<td><input type="button" id="bDPadd" value="Simpan" class="btnClick" /></td>
+						<td><input type="button" id="badd" value="Simpan" class="btnClick" /></td>
 					</tr>
 				</table>
 			</div>
 		</div>
 		
-		<div id="pnlMovieEdit" class="modal">
+		<div id="pnlDPEdit" class="modal">
 			<div class="modal-content">
-				<span id="btnMovieEditClose" class="btnModalClose" >X</span>
+				<span id="btnEditDPClose" class="btnModalClose" >X</span>
 				<b>Edit Data</b>
 				<table>
 					<tr>
-						<td>Movie Name:</td>
-						<td><input type="text" id="movienameE" /></td>
+						<td>NIP:</td>
+						<td><input type="text" id="DPNIPE" /></td>
 					</tr>
 					<tr>
-						<td>Genre:</td>
-						<td><input type="text" id="moviegenreE" /></td>
+						<td>Nama:</td>
+						<td><input type="text" id="DPNamaE" /></td>
 					</tr>
 					<tr>
-						<td>Rent Price:</td>
-						<td><input type="text" id="moviepriceE" /></td>
+						<td>Jabatan:</td>
+						<td><input type="text" id="DPJabatanE" /></td>
 					</tr>
 					<tr>
 						<td>&nbsp;</td>
-						<td><input type="button" id="bmovieedit" value="Simpan" class="btnClick" /></td>
+						<td><input type="button" id="bDPedit" value="Edit" class="btnClick" /></td>
 					</tr>
 				</table>
-				<input type="hidden" id="movieidE" />
+				<input type="hidden" id="DPUIDE" />
 			</div>
 		</div>
 
