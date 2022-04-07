@@ -153,6 +153,7 @@ body {
     border-radius: 10px 10px 0 0;
     background-color: #dde1e7;
     box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4);
+    
 }
 
 /*--css untuk data pengguna--*/
@@ -189,6 +190,7 @@ body {
     width: 96%;
     height: 400px;
     padding-left: 20px;
+    float: left;
 }
 
 
@@ -313,6 +315,50 @@ body {
     box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.65), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
     float: left;
 }
+.modal {
+	display: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	overflow: hidden;
+	background-color: rgba(0,0,0,0.4);
+}
 
+.modal-content {
+	background-color: lightgreen;
+	width: 300px;
+	padding: 20px;
+	margin: 15% auto;
+	border: solid 1px gray;
+	border-radius: 5px;
+	box-shadow: rgba(0,0,0,0.3) 5px 5px 5px
+}
+
+.btnModalClose {
+	float: right;
+	color: black;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.btnModalClose:hover,
+.btnModalClose:focus {
+	color: red;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btnClick {
+	background-color: rgb(255,127,39);
+	color: white;
+	border: none;
+	width: 65px;
+	height: 25px;
+}
 
 

@@ -1,7 +1,7 @@
 <?php
 	session_start();
 
-	include "library/dbconnect.php";
+	include "lib/dbconnectsipbang.php";
 	
 	$uid = $_GET["a"];
 	$psw = $_GET["b"];

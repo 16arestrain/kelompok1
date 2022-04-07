@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-    <meta http-equiv="Expires" content="Mon, 20 Dec 1998 01:00:00 GMT" />
-	<meta http-equiv="Cache-Control" content="no-cache, must-revalidate" />
-	<meta http-equiv="Pragma" content="no-cache" />
-
-    <title>Kelompok 1 | Tugas UI UX</title>
-
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/840/840523.png">
-    <!-- <a href="https://www.flaticon.com/free-icons/nuclear" title="nuclear icons">Nuclear icons created by Freepik - Flaticon</a> -->
-
-    <link rel="stylesheet" href="lib/loginpage.css">
-
-</head>
-<body>
 
     <div class="loginbox">
 
@@ -58,23 +41,21 @@
                     Welcome to Tugas UI UX
                 </div>
 
-                <form method="POST" action="datapengguna.php">
-
                     <div class="logbox">
 
                         <div class="textbox">
-                            <input name="xuser" id="xuser" type="text" placeholder="Username">
+                            <input type="text" id="xuid" name="xuid" placeholder="Username">
                         </div>
 
                         <div class="textbox">
-                            <input name="xpass" id="xpass" type="password" placeholder="Password">
+                            <input type="password" id="xpsw" name="xpsw" placeholder="Password">
                         </div>
 
                         <div class="forgot">
                             <a href="#">Forgot Password?</a>
                         </div>
 
-                        <a href="datapengguna.php"><input class="logbtn" type="submit" value="Sign in"></a>
+                        <input class="logbtn" type="button" id="btnLogin" value="Sign in"></a>
 
                     </div>
 
