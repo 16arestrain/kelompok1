@@ -10,6 +10,27 @@ $(document).ready(function() {
 
 });
 
+function bLogout() {
+	var myurl = "applogout.php";
+	$.ajax({
+		url: myurl,
+		type: "GET",
+		success: function(data) {
+			var res = data.trim().replace(/[\n\r]/g, "");
+			if (res == "1") {
+				//----kembali ke halaman login
+				alert ("User berhasil Logout");
+				window.location.reload();
+			} else {
+				alert ("Logout gagal");
+			}
+		},
+		error: function(err) {
+			alert(err);
+		}
+	});
+}
+
 function validateLogin() {
 	var uid = document.getElementById("xuid").value;
 	var psw = document.getElementById("xpsw").value;
