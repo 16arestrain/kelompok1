@@ -1,0 +1,175 @@
+body {
+    background-color: #dde1e7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+
+#titlemessage {
+    font-size: 18px;
+    font-weight: bold;
+    color: #545454;
+    margin-top: 15px;
+    margin-left: 23px;
+}
+
+.inputan {
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    padding-left: 10px;
+    color: #000000;
+    font-size: 13px;
+    border: none;
+    border-radius: 7px;
+    background-color: #dde1e7;
+    box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.65), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+.btnClose {
+    width: 20px;
+    height: 20px;
+    float: right;
+    color: black;
+    margin-top: -15px;
+    padding: 0;
+
+}
+
+.closeimage {
+    width: 12px;
+    height: 12px;
+    margin: 3px 7px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #F56D91;
+    box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+.closeimage:hover,
+.closeimage.focus {
+    color: #F56D91;
+    box-shadow: inset -2px -2px 4px rgba(94, 104, 121, 0.2), inset 3px 3px 5px rgba(94, 104, 121, 0.4);
+    cursor: pointer;
+}
+
+.btnSimpan {
+    color: white;
+	border: none;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-left: 5px;
+    border-radius: 5px;
+	width: 75px;
+	height: 25px;
+    background-color: #6b92e5;
+    box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+.btnSimpan:hover {
+    color: #ffffff;
+    background: #f88ab0;
+    cursor: pointer;
+    box-shadow: inset -4px -4px 7px rgba(94, 104, 121, 0.2), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+/*--- Pop Up Data Pengguna ---*/
+
+.modaldatapengguna {
+    background-color: #dde1e7;
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    margin: 15% auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+.popupdatapengguna {
+    color: #545454;
+    font-size: 13px;
+    width: 100%;
+    margin: 20px;
+}
+
+/*--- Data Paket ---*/
+
+.modaldatapaket {
+    background-color: #dde1e7;
+    width: 455px;
+    height: 375px;
+    padding: 20px;
+    margin: 7% auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+.popupdatapaket {
+    color: #545454;
+    font-size: 13px;
+    width: 100%;
+    margin: 20px;
+}
+
+/*--- Penugasan ---*/
+
+.modalpenugasan {
+    background-color: #dde1e7;
+    width: 1000px;
+    height: 430px;
+    padding: 20px;
+    margin: 7% auto;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+#headpenugasan {
+    width: 1000px;
+    height: 40px;
+    background-color: none;
+}
+
+#formpenugasan {
+    width: 500px;
+    height: 400px;
+    background-color: none;
+    float: left;
+}
+
+.popuppenugasan {
+    color: #545454;
+    font-size: 13px;
+    width: 100%;
+    margin: 10px;
+
+}
+
+#checklistjabfung {
+    width: 500px;
+    height: 400px;
+    color: #545454;
+    font-size: 13px;
+    background-color: none;
+    float: left;
+}
+
+.cljabfung {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: none;
+}

@@ -1,0 +1,133 @@
+body {
+    background-color: #dde1e7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginbox {
+    width: 800px;
+    height: 400px;
+    box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4);
+    border-radius: 10px;
+
+    margin: auto;
+    margin-top: 100px;
+}
+
+.loginboxleft {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #dde1e7;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    text-align: center;
+}
+
+.loginboxleft img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.loginboxleft table .lorem {
+    width: 80px;
+    font-size: 10px;
+    color: #767676;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.loginboxleft a {
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+    opacity: 0.5;
+    font-size: 8px;
+}
+
+.loginboxright {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #dde1e7;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    text-align: center;
+}
+
+.signinbox {
+    width: 250px;
+    height: 400px;
+}
+
+.signinbox .signin-msg {
+    font-size: 21px;
+    font-weight: bold;
+    word-spacing: 1px;
+    color: #767676;
+    padding-top: 85px;
+}
+
+.logbox {
+    padding-top: 50px;
+}
+
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 1px 0;
+    margin: 10px 0 5px 0;
+}
+
+.textbox input {
+    border: none;
+    outline: none;
+    background: none;
+    color: black;
+    opacity: 0.5;
+    font-size: 14px;
+    width: 91%;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.65), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+    float: left;
+    /* margin: 0 10px; */
+}
+
+.forgot a {
+    padding-top: 10px;
+    text-decoration: none;
+    float: right;
+    font-size: 9px;
+    color: #767676;
+}
+
+.logbtn {
+    width: 100%;
+    background: #dde1e7;
+    border: none;
+    border-radius: 7px;
+    color: #545454;
+    margin-top: 30px;
+    padding: 7px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4);
+    /* margin: auto; */
+}
+
+.logbtn:hover {
+    color: #6b92e5;
+    background: #dde1e7;
+    box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.65), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+.footerx {
+    text-align: center;
+    font-size: 10px;
+    color: #767676;
+    margin: 80px 0 0 0;
+}

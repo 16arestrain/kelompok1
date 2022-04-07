@@ -1,0 +1,318 @@
+body {
+    background-color: #dde1e7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainbox {
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    background-color: #dde1e7;;
+}
+
+#titlelogo {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 50px;
+    background-color: none;
+    align-items: center;
+    float: left;
+}
+
+#title {
+    width: 700px;
+    height: 100px;
+    margin: 15px 50px 0 0;
+    padding: 10px;
+    float: left;
+}
+
+#titlemain {
+    font-size: 20px;
+    color: #545454;
+}
+
+#titlesub {
+    margin-top: 7px;
+    font-size: 13px;
+    color: #545454;
+}
+
+#menu{
+    width: 100%;
+    height: 45px;
+    background-color: #dde1e7;
+}
+
+#menuleft {
+    width: 700px;
+    height: 40px;
+    margin-left: 30px;
+    background-color: #dde1e7;
+    float: left;
+}
+
+#menuleft ul {
+    background-color: none;
+    margin: 0;
+    list-style: none;
+    font-size: 13px;
+
+    align-items: center;
+    text-align: center;
+}
+
+#menuleft ul li{
+    background-color: #dde1e7;
+    border-radius: 7px;
+    margin: 0 15px 0 0;
+    padding: 10px;
+    box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4);
+    float: left;
+
+}
+
+#menuleft ul li:hover{
+    border-radius: 7px;
+    margin: 0px 15px 0 0;
+    padding: 10px;
+    box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.65), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+#menuleft ul li a {
+    text-decoration: none;
+    padding: 0px 5px;
+    color: #545454;
+}
+
+#menuleft ul li a:hover{
+    color: #6b92e5;
+}
+
+#menuleft ul li ul {
+    background-color: none;
+    border-radius: 7px;
+    display: none;
+    margin: 10px;
+    padding: 0px;
+    list-style: none;
+    position: absolute;
+}
+
+#menuleft ul li:hover ul {
+    display: block;
+    padding: 10px;
+}
+
+#menuleft ul li ul li {
+    padding: 10px;
+    float: none;
+}
+
+#menulogout{
+    width: 200px;
+    height: 40px;
+    margin-left: 65px;
+    float: left;
+}
+#logoutbtn {
+    width: 70px;
+    height: 36px;
+    font-size: 13px;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    background-color: #6b92e5;
+    box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4);
+    /* margin: auto; */
+}
+
+#logoutbtn:hover {
+    color: #ffffff;
+    background: #f88ab0;
+    cursor: pointer;
+    box-shadow: inset -4px -4px 7px rgba(94, 104, 121, 0.2), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+#clearfloat {
+    clear: both;
+}
+
+#content{
+    width: 100%;
+    height: 400px;
+    margin-top: 75px;
+    border-radius: 10px 10px 0 0;
+    background-color: #dde1e7;
+    box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+/*--css untuk data pengguna--*/
+
+#create {
+    width: 100px;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 90%;
+    background-color: none;
+    
+}
+
+#btnCreate {
+    width: 60px;
+    height: 30px;
+    font-size: 13px;
+    color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    background-color: #6b92e5;
+    box-shadow: -4px -4px 5px rgba(255, 255, 255, 0.7), 5px 5px 8px rgba(94, 104, 121, 0.4);
+    /* margin: auto; */
+}
+
+#btnCreate:hover {
+    color: #ffffff;
+    background: #f88ab0;
+    cursor: pointer;
+    box-shadow: inset -4px -4px 7px rgba(94, 104, 121, 0.2), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+}
+
+#isicontent {
+    width: 96%;
+    height: 400px;
+    padding-left: 20px;
+}
+
+
+#footer{
+    height: 35px;
+    background-color: #dde1e7;
+    border-top: 1px solid #9d9d9d;
+}
+
+#namaaplikasi {
+    width: 350px;
+    padding: 10px 10px 10px 40px;
+    background-color: none;
+    text-align: left;
+    font-size: 10px;
+    color: #767676;
+    float: left;
+}
+
+#signature {
+    display: flex;
+    width: 350px;
+    padding: 10px;
+    background-color: none;
+    align-items: center;
+    font-size: 10px;
+    color: #767676;
+    float: left;
+}
+
+#sosmed {
+    width: 200px;
+    padding: auto 5px;
+    background-color: none;
+    float: left;
+}
+
+#instagram {
+    width: 12px;
+    height: 12px;
+    margin: 3px 7px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #dde1e7;
+    box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4);
+    float: left;
+}
+
+#instagram:hover {
+    width: 12px;
+    height: 12px;
+    margin: 3px 7px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #dde1e7;
+    box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.65), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+    float: left;
+}
+
+#facebook {
+    width: 12px;
+    height: 12px;
+    margin: 3px 7px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #dde1e7;
+    box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4);
+    float: left;
+}
+
+#facebook:hover {
+    width: 12px;
+    height: 12px;
+    margin: 3px 7px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #dde1e7;
+    box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.65), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+    float: left;
+}
+
+#twitter {
+    width: 12px;
+    height: 12px;
+    margin: 3px 7px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #dde1e7;
+    box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4);
+    float: left;
+}
+
+#twitter:hover {
+    width: 12px;
+    height: 12px;
+    margin: 3px 7px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #dde1e7;
+    box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.65), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+    float: left;
+}
+
+#telegram {
+    width: 12px;
+    height: 12px;
+    margin: 3px 7px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #dde1e7;
+    box-shadow: -4px -4px 7px rgba(255, 255, 255, 0.65), 5px 5px 8px rgba(94, 104, 121, 0.4);
+    float: left;
+}
+
+#telegram:hover {
+    width: 12px;
+    height: 12px;
+    margin: 3px 7px;
+    border-radius: 7px;
+    padding: 7px;
+    background-color: #dde1e7;
+    box-shadow: inset -4px -4px 7px rgba(255, 255, 255, 0.65), inset 5px 5px 8px rgba(94, 104, 121, 0.4);
+    float: left;
+}
+
+
+
