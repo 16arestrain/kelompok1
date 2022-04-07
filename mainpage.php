@@ -112,29 +112,29 @@
 			</div>
 		</div>
 
-		<div id="pnlMovieDelete" class="modal">
+		<div id="pnlDPDelete" class="modal">
 			<div class="modal-content">
-				<span id="btnMovieDeleteClose" class="btnModalClose" >X</span>
+				<span id="btnDPDeleteClose" class="btnModalClose" >X</span>
 				<b>Delete Data</b>
 				<table>
 					<tr>
-						<td>Movie Name:</td>
-						<td><input type="text" id="movienameD" /></td>
+						<td>NIP:</td>
+						<td><input type="text" id="DPNIPD" /></td>
 					</tr>
 					<tr>
-						<td>Genre:</td>
-						<td><input type="text" id="moviegenreD" /></td>
+						<td>Nama:</td>
+						<td><input type="text" id="DPNamaD" /></td>
 					</tr>
 					<tr>
-						<td>Rent Price:</td>
-						<td><input type="text" id="moviepriceD" /></td>
+						<td>Jabatan:</td>
+						<td><input type="text" id="DPJabatanD" /></td>
 					</tr>
 					<tr>
 						<td>&nbsp;</td>
-						<td><input type="button" id="bmoviedel" value="Hapus" class="btnClick" /></td>
+						<td><input type="button" id="bdel" value="Hapus" class="btnClick" /></td>
 					</tr>
 				</table>
-				<input type="hidden" id="movieidD" />
+				<input type="hidden" id="DPUIDD" />
 			</div>
 		</div>
     

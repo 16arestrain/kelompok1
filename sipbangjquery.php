@@ -10,7 +10,7 @@
 		<meta http-equiv="Pragma" content="no-cache" />
 		
 		<title>SIPBANG "Sistem Informasi JFPBJ"</title>
-		<link id="icon" rel="shortcut icon" type="image/x-icon" href="images/iconay.png" />
+		<link id="icon" rel="shortcut icon" type="image/x-icon" href="img/icon.png" />
 		
 		<script type="text/javascript" src="jquery/jquery-3.6.0.min.js"></script>
 		<script type="text/javascript" src="jquery/jquery-ui.min.js"></script>
