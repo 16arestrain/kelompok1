@@ -1,2 +1,2 @@
 # SIPBANG - Kelompok 1
-## Sistem Aplikasi Pengadaan Barang dan Jasa
+## Sistem Informasi Jabfung Pengadaan Barang dan Jasa
